@@ -49,7 +49,7 @@ r = requests.Session()
 hd = {
 'user-agent':'Mozilla/5.0 (Linux; Android 9; vivo 1902) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.136 Mobile Safari/537.36',
 }
-with open('config1.json','r') as tod:
+with open('config.json','r') as tod:
  y = json.loads(tod.read())
 coki = {
 '__cfduid':y["__cfduid"],
